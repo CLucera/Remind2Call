@@ -1,0 +1,1 @@
+the app solve the need of a reminder for the future call i need to make, it will save a list and notificate the user at a set time
