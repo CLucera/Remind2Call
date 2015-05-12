@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="2dp"
+    android:id="@+id/listitem_bg"
+    >
+
+
+    <com.crea3d.remind2call.widget.VerticalTextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:text="Today"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/listitem_date" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listitem_bg_inner"
+        android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/listitem_contatto_img"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/contact" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome Cognome"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/listitem_nome" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/list_remind_at"
+            android:id="@+id/listitem_remind" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:id="@+id/listitem_phone"
+        android:layout_marginLeft="5dp"
+        android:src="@android:drawable/ic_menu_call" />
+    </LinearLayout>
+
+</LinearLayout>

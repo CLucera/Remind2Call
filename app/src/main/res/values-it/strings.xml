@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Remind2Call</string>
+    <string name="action_add">Aggiungi Reminder</string>
+    <string name="action_call">Chiama ora</string>
+    <string name="action_later">Postponi</string>
+
+    <string name="list_empty">Non hai alcun reminder salvato\ntocca per aggiungerne uno</string>
+
+    <string name="contact_remind">Ricordami di chiamare %s!</string>
+    <string name="contact_date">Data</string>
+    <string name="contact_time">Ora</string>
+    <string name="contact_note_hint">aggiungi note...</string>
+    <string name="contact_save">SALVA</string>
+    <string name="contact_delete">CANCELLA</string>
+
+    <string name="list_remind_at">chiama alle %s</string>
+    <string name="list_today">OGGI</string>
+
+    <string name="delete_confirm_title">Conferma Eliminazione</string>
+    <string name="delete_confirm_message">Sei sicuro di voler eliminare il reminder per %1$s del: %2$s?</string>
+    <string name="delete_confirm_message_single">Sei sicuro di voler eliminare questo reminder?</string>
+
+    <string name="save_confirm_title">Conferma salvataggio</string>
+    <string name="save_confirm_message">La data scelta è nel passato, se salvi questo reminder non riceverai alcuna notifica</string>
+
+    <string name="notify_remind">è ora di chiamare %s!</string>
+    <string name="no_activity_alert_title">Reminder</string>
+    <string name="no_activity_alert_message">Ricordati di chiamare %1$s al numero %2$s</string>
+
+</resources>
